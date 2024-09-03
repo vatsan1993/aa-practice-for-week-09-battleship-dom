@@ -21,14 +21,14 @@ browser which a user can interact with to find and destroy ships by guessing
 their coordinates on the board. Once all the ships are found, the user wins and
 the game is over!
 
-The HTML file is provided for you in __index.html__ with the CSS and JavaScript
+The HTML file is provided for you in **index.html** with the CSS and JavaScript
 files imported already. However, you will need to create HTML elements in the
 `<body>` using JavaScript. You can view the page by starting the server in
-__app.js__ by running `node app.js` and navigate to [http://localhost:5000] in
+**app.js** by running `node app.js` and navigate to [http://localhost:5000] in
 the browser.
 
 The task of randomly generating a Battleship game board is done for you. If you
-initialize the `Board` class in the __assets/js/board.js__, the `grid` property
+initialize the `Board` class in the **assets/js/board.js**, the `grid` property
 on the `new Board()` will be a 9x9 2-D array. There are 9 rows and 9 columns.
 A `null` value in the `grid` 2-D array means that there is no ship at that cell
 that the element represents. A number value in the `grid` means that there is
@@ -38,9 +38,9 @@ number.
 You can examine what the `grid` 2-D array will look like navigating to
 [http://localhost:5000] in the browser and opening up the "Console" tab in the
 browser's Developer Tools. There you will see a `Board`'s `grid` logged to the
-console from the __assets/js/index.js__ file
+console from the **assets/js/index.js** file
 
-In the __assets/js/index.js__ file, you will create HTML elements that represent
+In the **assets/js/index.js** file, you will create HTML elements that represent
 the Battleship game board and create an interactive Battleship game in the
 browser using event listeners.
 
@@ -48,7 +48,7 @@ browser using event listeners.
 
 Create an HTML structure using JavaScript that can be positioned using CSS to
 visually represent the layout of the Battleship game board. Add your CSS to the
-__assets/css/index.css__ file to make each cell in the board a square. Each
+**assets/css/index.css** file to make each cell in the board a square. Each
 cell in the `grid` should be represented by a square. You should link that
 square HTML element with the cell in the `grid` by storing the data about the
 row and the column of the cell on the HTML element.
@@ -164,3 +164,6 @@ you want to add!
 [http://localhost:5000]: http://localhost:5000
 [draggable]: https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/draggable
 [drag and drop API]: https://developer.mozilla.org/en-US/docs/Web/API/HTML_Drag_and_Drop_API
+
+Find the better example here:
+https://alienbattleship.netlify.app/
